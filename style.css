@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    background-color:whitesmoke ;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    margin-top: 1rem;
+    background-image: linear-gradient(whitesmoke 40% ,rgb(99, 103, 141) ,rgb(112, 152, 115));
+    text-align: center;
+}
+.logo{
+    margin-top: -1rem; 
+}
+.school-name{
+margin-top: -4rem;
+font-family: cursive;
+}
+.hp-input{
+    
+    text-align: left;
+    border: 0.2rem solid rgb(61, 133, 47);
+    border-radius: 0.5rem;
+    width: 50%;
+    height: 3rem;
+    padding: 1rem;
+    background-color: rgb(234, 240, 240);
+    box-shadow: 0.1rem 0.2rem 0.2rem 0.2rem rgb(88, 109, 74);
+   
+}
+.Tag{
+font-size: larger;
+font-weight: bold;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-1{
+    width: auto;
+    margin-top: 1rem;
+    padding: 0.3rem 1.5rem;
+    background-color: rgb(211, 230, 180);
+    color:rgb(239, 13, 137) ;
+    border-radius: 1rem;
+    display: block;
+    margin: 1rem auto;
+}
+
+.btn-1:hover{
+    background-color: rgba(62, 224, 86, 0.715);
+    color: rgb(155, 50, 50);
+    font-weight: bold;
+    font-size: large;
+}
+.card{
+    background-image: linear-gradient(to right,rgb(109, 168, 117),rgba(40, 38, 38, 0.74));
+    width: 90%;
+    height: 90vh;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px 5px black;
+}
+#card-header{
+    padding: 1rem;
+    background-image: linear-gradient(rgb(47, 45, 86),rgb(74, 70, 70),rgba(87, 204, 87, 0.781));
+    color: blanchedalmond;
+    width: auto;
+    height: 10%;
+    border-radius: 0.5rem;
+}
+.image-display{
+    width: 95%;
+    height: 80%;
+    margin:1rem;
+    border-radius: 0.5rem;
+    box-shadow: .5rem .5rem .5rem black;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    border-radius: 0.5rem;
+    width: 50vw;
+    height: auto;
+    background-image: linear-gradient(to right,rgb(109, 168, 117),rgba(40, 38, 38, 0.74));
+}
+.card-body-1{
+    padding-top:3rem;
+}
+.img{
+    margin: 1rem auto;
+    width: 70%;
+    height: 40%;
+    border-radius: 1rem;
+}
+
+.school-logo{
+    width: 8rem;
+    height: 7rem;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
