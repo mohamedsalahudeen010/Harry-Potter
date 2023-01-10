@@ -74,7 +74,7 @@ async function fetchHome() {
     console.log(error);
   }
 }
-
+fetchHome();
 /*===============<<<<<<<<<<<<<<< Students >>>>>>>>>>>>>>>=============== */
 
 async function fetchStudents() {
