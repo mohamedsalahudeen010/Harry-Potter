@@ -5,7 +5,8 @@ let display = document.getElementById("display");
 let form1 = document.getElementById("form");
 form1.addEventListener("submit", getCharacter);
 
-async function getCharacter() {
+async function getCharacter(event) {
+  event.preventDefault();
   let searchedCharacter = document.getElementById("hp-input").value;
   console.log(searchedCharacter);
 
