@@ -42,7 +42,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     padding: 0.3rem 1.5rem;
     background-color: rgb(211, 230, 180);
     color:rgb(239, 13, 137) ;
-    border-radius: 1rem;
+    border-radius: 0.2rem;
     display: block;
     margin: 1rem auto;
 }
